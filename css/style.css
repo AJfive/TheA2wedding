@@ -2118,4 +2118,327 @@ form label {
   }
 }
 
+/*================================================================ A2 wedding Event Buttons================== */
+
+.btnevents {
+/*  text-transform: uppercase; */
+  letter-spacing: 1px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.btnevents.btnevents-primary {
+  background: #efefef;
+  color:  #efefef; /* #fff; */
+/*  border: none !important; */
+  border: 2px solid transparent !important;
+}
+.btnevents.btnevents-primary:hover, .btnevents.btnevents-primary:active, .btnevents.btnevents-primary:focus {
+  box-shadow: none;
+  background: #efefef /* editted #F78536; */
+  color:  #a9a9a9; /* #fff !important;*/ 
+}
+.btnevents:hover, .btnevents:active, .btnevents:focus {
+  background:  #efefef; /*#393e46 !important;      */                              
+  color:  #a9a9a9; /* #fff; */
+  outline: none !important;
+}
+.btnevents.btnevents-default:hover, .btnevents.btnevents-default:focus, .btnevents.btnevents-default:active {
+  border-color: transparent;
+}
+.btnevents.btnevents-outline {
+  background: transparent;
+  color:  #efefef; /*#F78536;*/
+  Padding: 8px;
+  border: 2px solid #F78536 !important;
+}
+.btnevents.btnevents-outline:hover, .btnevents.btnevents-outline:focus, .btnevents.btnevents-outline:active {
+  background:  #c6c5c5; /*#F78536 !important;*/
+  color:  #a9a9a9; /* #fff !important; */
+}
+
+/* Location page - watch online buttons */
+
+.btnmini {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 5px 14px;
+}
+.btnmini.btnmini-md {
+  padding: 5px 14px; !important;
+}
+.btnmini.btnmini-lg {
+  padding: 5px 14px; !important;
+}
+.btnmini:hover, .btnmini:active, .btnmini:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btnmini-primarymini {
+  
+  color: #fff;
+  border: 1px solid #CBF83E; // #F14E95;
+}
+.btnmini-primarymini:hover, .btnmini-primarymini:focus, .btnmini-primarymini:active {
+  background: #CBF83E; // #f366a3 !important;
+  border-color: #CBF83E; //#f366a3 !important;
+}
+.btnmini-primarymini.btn-outline {
+  background: transparent;
+  color: #CBF83E; // #F14E95;
+  border: 1px solid #CBF83E; //#F14E95;
+}
+.btnmini-primarymini.btnmini-outline:hover, .btnmini-primarymini.btnmini-outline:focus, .btnmini-primarymini.btn-outline:active {
+  background: #CBF83E; // #F14E95;
+  color: #fff;
+}
+
+/* ================================================================== Reach us page ================================*/
+
+#fh5coreach-counter,
+#fh5coreach-event,
+.fh5co-bg {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.fh5coreach-bg {
+  background-position: center center;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.fh5coreach-cover {
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.fh5coreach-cover .overlay {
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.fh5coreach-cover > .fh5coreach-container {
+  position: relative;
+  z-index: 10;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-cover {
+    height: 600px;
+  }
+}
+.fh5coreach-cover .display-t,
+.fh5coreach-cover .display-tc {
+  height: 900px;
+  display: table;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .fh5coreach-cover .display-t,
+  .fh5coreach-cover .display-tc {
+    height: 600px;
+  }
+}
+.fh5coreach-cover.fh5co-cover-sm {
+  height: 600px;
+}
+@media screen and (max-width: 768px) {
+  .fh5coreach-cover.fh5coreach-cover-sm {
+    height: 400px;
+  }
+}
+.fh5coreach-cover.fh5coreach-cover-sm .display-t,
+.fh5coreach-cover.fh5coreach-cover-sm .display-tc {
+  height: 600px;
+  display: table;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .fh5coreach-cover.fh5co-cover-sm .display-t,
+  .fh5coeach-cover.fh5co-cover-sm .display-tc {
+    height: 400px;
+  }
+}
+
+#fh5co-counter,
+#fh5coreach-event {
+  height: 950px;
+  float: left;
+}
+#fh5coreach-counter .display-t,
+#fh5coreach-counter .display-tc,
+#fh5co-event .display-t,
+#fh5co-event .display-tc {
+  height: 700px;
+  display: table;
+  width: 100%;
+}
+#fh5coreach-counter .fh5co-heading h2,
+#fh5coreach-event .fh5co-heading h2 {
+  color: #fff;
+}
+#fh5coreach-counter .fh5co-heading span,
+#fh5coreach-event .fh5co-heading span {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+#fh5coreach-counter .overlay,
+#fh5coreach-event .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 768px) {
+  #fh5co-counter,
+  #fh5co-event {
+    height: inherit;
+    padding: 7em 0;
+  }
+  #fh5co-counter .display-t,
+  #fh5co-counter .display-tc,
+  #fh5co-event .display-t,
+  #fh5co-event .display-tc {
+    height: inherit;
+  }
+}
+#fh5co-counter .event-wrap,
+#fh5co-event .event-wrap {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  width: 100%;
+  float: left;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-counter .event-wrap,
+  #fh5co-event .event-wrap {
+    margin-bottom: 10px;
+  }
+}
+#fh5co-counter .event-wrap h3,
+#fh5co-event .event-wrap h3 {
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: block;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
+#fh5co-event .event-wrap p,
+#fh5co-event .event-wrap span {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+}
+#fh5co-counter .event-wrap i,
+#fh5co-event .event-wrap i {
+  color: white;
+  font-size: 20px;
+}
+#fh5coreach-counter .event-wrap .event-col,
+#fh5coreach-event .event-wrap .event-col {
+  width: 50%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#fh5coreach-counter {
+  height: 600px;
+}
+@media screen and (max-width: 768px) {
+  #fh5coreach-counter {
+    height: auto;
+  }
+}
+
+/* ================================================ Video part to be editted =============*/
+
+.fh5co-video {
+  height: 450px;
+  overflow: hidden;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
+.fh5co-video a {
+  z-index: 1001;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -45px;
+  width: 90px;
+  height: 90px;
+  display: table;
+  text-align: center;
+  background: #fff;
+  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.fh5co-video a i {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 40px;
+}
+.fh5co-video .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.fh5co-video:hover .overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+.fh5co-video:hover a {
+  position: relative;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 /* ======================== A2Wedding ends here*/
