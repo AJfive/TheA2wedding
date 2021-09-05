@@ -21,7 +21,8 @@
 
 	var offcanvasMenu = function() {
 
-		$('#page').prepend('<div id="fh5co-offcanvas" />');
+//		$('#page').prepend('<div id="fh5co-offcanvas" />');
+		$('#page').prepend('<div id="" />');
 		$('#page').prepend('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
 		$('#fh5co-offcanvas').append(clone1);
@@ -140,7 +141,6 @@
 
 	};
 
-
 	var testimonialCarousel = function(){
 		var owl = $('.owl-carousel-fullwidth');
 		owl.owlCarousel({
@@ -228,5 +228,53 @@
 		counterWayPoint();
 	});
 
+
+	/*=================================== Added A2wedding ===========================================================*/
+
+	/* About me slider */
+	$('.about-me-slider').slick({
+		slidesToShow: 1,
+		prevArrow: '<span class="span-arrow slick-prev"><</span>',
+		nextArrow: '<span class="span-arrow slick-next">></span>'
+	});
+
+
+
+
+var counta = 0;
+
+$(window).scroll(function(e){
+
+
+	/* Onscroll number counter */
+	var statisticNumbers = $('.single-count');
+	if(statisticNumbers.length) {
+		var oTop = statisticNumbers.offset().top - window.innerHeight;
+		if (counta == 0 && $(window).scrollTop() > oTop) {
+			$('.count').each(function() {
+				var $this = $(this),
+				countTo = $this.attr('data-count');
+				$({
+					countNum: $this.text()
+				}).animate({
+					countNum: countTo
+				},
+
+				{
+					duration: 2000,
+					easing: 'swing',
+					step: function() {
+						$this.text(Math.floor(this.countNum));
+					},
+					complete: function() {
+						$this.text(this.countNum);
+					}
+				});
+			});
+			counta = 1;
+		}
+	}
+
+});
 
 }());
