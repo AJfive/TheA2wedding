@@ -969,7 +969,8 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+//  background: rgba(241, 78, 149, 0.8);
+  background: #0C4D33;
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1927,12 +1928,26 @@ form label {
 }
 
 #fh5co-couple h3 {
-  font-size: 30px;
+  font-size: 35px;
+
 }
 
 @media screen and (max-width: 768px) {
   #fh5co-couple h3 {
     font-size: 35px;
+
+  }
+}
+
+#fh5co-couple h6 {
+  font-size: 50px;
+
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-couple h6 {
+    font-size: 50px;
+
   }
 }
 
@@ -3369,7 +3384,7 @@ form label {
 
 
 #footer {
-  background: #F69D9D;
+  background: #003153; // #556b2f ; //#F69D9D;
   padding: 60px 0 40px;
 }
 
