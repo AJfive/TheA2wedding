@@ -1,1 +1,2 @@
-# The A2 wedding is my first coding project for my personal sepcial day. The templates used are from https://freehtml5.co/
+# TheA2wedding is the first project for my personal special day.
+# The templates used were from https://freehtml5.co/ and I have just enhaced it
